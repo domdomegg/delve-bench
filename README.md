@@ -6,6 +6,19 @@ A configurable benchmark to test AI models' tendency to use specific words in th
 | - | - |
 | ![A list of task runs, showing gpt-4o using the word delve 9/10 times](./docs/inspect-view-list.png) | ![Details of a single task run, showing the chat transcript](./docs/inspect-view-details.png) |
 
+## Results
+
+| Model | Delve usage | |
+|-------|----------|---------|
+| gpt-4o | 90% | █████████▁ |
+| gpt-4 | 50% | █████▁▁▁▁▁ |
+| gpt-4-turbo | 50% | █████▁▁▁▁▁ |
+| gpt-4o-mini | 40% | ████▁▁▁▁▁▁ |
+| o3-mini | 20% | ██▁▁▁▁▁▁▁▁ |
+| gpt-3.5-turbo | 10% | █▁▁▁▁▁▁▁▁▁ |
+| o4-mini | 0% | ▁▁▁▁▁▁▁▁▁▁ |
+| gpt-4.1 | 0% | ▁▁▁▁▁▁▁▁▁▁ |
+
 ## Background
 
 This benchmark was originally inspired by the observation that ChatGPT models frequently use the word "delve" in their responses. [Paul Graham is not a fan](https://x.com/paulg/status/1777030573220933716). [Bair from Manifold Markets](https://manifold.markets/Bair/will-gpt5-like-to-delve) found ChatGPT 3.5 uses "delve" 10/10 times and ChatGPT 4 uses it 8/10 times when responding to a fixed prompt about global warming.
